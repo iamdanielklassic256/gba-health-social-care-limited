@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Privacy Policy for GBA Health Social Care Limited - Learn how we protect and handle your personal information">
+    <meta name="keywords" content="privacy policy, data protection, GBA Health Social Care, healthcare privacy">
+    <meta name="author" content="GBA Health Social Care Limited">
+    <title>Privacy Policy | GBA Health Social Care Limited</title>
+    
+    <!-- Preload critical resources -->
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" as="style">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #025699;
+            --primary-light: #4a90d9;
+            --primary-dark: #013d73;
+            --secondary-color: #f8f9fa;
+            --accent-color: #28a745;
+            --text-primary: #2c3e50;
+            --text-secondary: #6c757d;
+            --text-light: #adb5bd;
+            --border-color: #e9ecef;
+            --shadow-light: 0 2px 15px rgba(0,0,0,0.08);
+            --shadow-medium: 0 8px 30px rgba(0,0,0,0.12);
+            --shadow-heavy: 0 15px 50px rgba(0,0,0,0.15);
+            --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            --border-radius: 16px;
+            --border-radius-sm: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            min-height: 100vh;
+            scroll-behavior: smooth;
+        }
+
+        /* Enhanced scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-color);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--primary-dark);
+        }
+
+        /* Enhanced Navbar */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95) !important;
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            box-shadow: var(--shadow-light);
+            padding: 1rem 0;
+            transition: var(--transition);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary-color) !important;
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .navbar-brand:hover {
+            transform: scale(1.02);
+        }
+
+        .navbar-brand img {
+            transition: var(--transition);
+        }
+
+        .navbar-brand:hover img {
+            transform: scale(1.1);
+        }
+
+        .nav-link {
+            color: var(--text-primary) !important;
+            font-weight: 500;
+            margin: 0 0.5rem;
+            position: relative;
+            transition: var(--transition);
+            padding: 0.5rem 1rem !important;
+            border-radius: var(--border-radius-sm);
+        }
+
+        .nav-link:hover {
+            color: var(--primary-color) !important;
+            background: rgba(2, 86, 153, 0.08);
+            transform: translateY(-1px);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 50%;
+            background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+            transition: var(--transition);
+            transform: translateX(-50%);
+            border-radius: 1px;
+        }
+
+        .nav-link:hover::after {
+            width: 70%;
+        }
+
+        /* Main Content Wrapper */
+        .main-wrapper {
+            min-height: calc(100vh - 100px);
+            padding-top: 120px;
+            padding-bottom: 60px;
+        }
+
+        /* Content Container */
+        .content-container {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-medium);
+            padding: 3rem;
+            margin: 2rem auto;
+            max-width: 900px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .content-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 6px;
+            background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+        }
+
+        /* Typography */
+        .page-title {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            position: relative;
+        }
+
+        .page-title i {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-right: 1rem;
+        }
+
+        .last-updated {
+            display: inline-flex;
+            align-items: center;
+            background: linear-gradient(135deg, rgba(2, 86, 153, 0.1), rgba(74, 144, 217, 0.15));
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+            border: 1px solid rgba(2, 86, 153, 0.2);
+        }
+
+        .last-updated i {
+            margin-right: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .intro-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(2, 86, 153, 0.03), rgba(74, 144, 217, 0.05));
+            border-radius: var(--border-radius-sm);
+            border-left: 4px solid var(--primary-color);
+            position: relative;
+        }
+
+        .intro-text::before {
+            content: '"';
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: 3rem;
+            color: var(--primary-light);
+            opacity: 0.3;
+            font-family: Georgia, serif;
+        }
+
+        .section-heading {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 3rem 0 1.5rem 0;
+            position: relative;
+            padding-left: 2rem;
+        }
+
+        .section-heading::before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 4px;
+            height: 30px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            border-radius: 2px;
+        }
+
+        .section-heading:first-of-type {
+            margin-top: 2rem;
+        }
+
+        /* Enhanced Lists */
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            position: relative;
+            padding: 0.75rem 0 0.75rem 2.5rem;
+            margin-bottom: 0.5rem;
+            background: rgba(248, 249, 250, 0.8);
+            border-radius: var(--border-radius-sm);
+            transition: var(--transition);
+            border: 1px solid transparent;
+        }
+
+        ul li:hover {
+            background: rgba(2, 86, 153, 0.05);
+            border-color: rgba(2, 86, 153, 0.1);
+            transform: translateX(5px);
+        }
+
+        ul li::before {
+            content: '';
+            position: absolute;
+            left: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 8px;
+            height: 8px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            border-radius: 50%;
+            box-shadow: 0 0 0 3px rgba(2, 86, 153, 0.2);
+        }
+
+        /* Enhanced Paragraphs */
+        p {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+
+        p strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* Enhanced Links */
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        a:hover {
+            color: var(--primary-dark);
+            text-decoration: none;
+        }
+
+        a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+            transition: var(--transition);
+        }
+
+        a:hover::after {
+            width: 100%;
+        }
+
+        /* Contact Card */
+        .contact-card {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: white;
+            padding: 2rem;
+            border-radius: var(--border-radius-sm);
+            margin: 2rem 0;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            transform: translate(50%, -50%);
+        }
+
+        .contact-card h4 {
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        .contact-card a {
+            color: white;
+            font-weight: 600;
+            font-size: 1.1rem;
+            display: inline-flex;
+            align-items: center;
+            padding: 0.75rem 2rem;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50px;
+            transition: var(--transition);
+            backdrop-filter: blur(10px);
+            margin-top: 1rem;
+        }
+
+        .contact-card a:hover {
+            background: rgba(255,255,255,0.3);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-light);
+            color: white;
+        }
+
+        .contact-card a::after {
+            display: none;
+        }
+
+        .contact-card i {
+            margin-right: 0.5rem;
+            font-size: 1.1rem;
+        }
+
+        /* Table of Contents */
+        .toc {
+            background: rgba(2, 86, 153, 0.05);
+            border: 1px solid rgba(2, 86, 153, 0.1);
+            border-radius: var(--border-radius-sm);
+            padding: 2rem;
+            margin: 2rem 0;
+        }
+
+        .toc h4 {
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .toc h4 i {
+            margin-right: 0.5rem;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .toc ul {
+            margin-bottom: 0;
+        }
+
+        .toc ul li {
+            background: transparent;
+            padding: 0.5rem 0 0.5rem 2rem;
+            border: none;
+        }
+
+        .toc ul li:hover {
+            background: rgba(2, 86, 153, 0.08);
+        }
+
+        .toc a {
+            color: var(--text-secondary);
+            font-weight: 500;
+        }
+
+        .toc a:hover {
+            color: var(--primary-color);
+        }
+
+        .toc a::after {
+            display: none;
+        }
+
+        /* Enhanced Footer */
+        .footer {
+            background: linear-gradient(135deg, var(--text-primary) 0%, #1a252f 100%);
+            color: white;
+            padding: 3rem 0 1.5rem;
+            position: relative;
+            overflow: hidden;
+            margin-top: 4rem;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+        }
+
+        .footer-content {
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .footer p {
+            margin-bottom: 1rem;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        .footer a {
+            color: var(--primary-light);
+            font-weight: 500;
+            margin: 0 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: var(--border-radius-sm);
+            transition: var(--transition);
+        }
+
+        .footer a:hover {
+            background: rgba(74, 144, 217, 0.1);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .footer a::after {
+            display: none;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: white;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            box-shadow: var(--shadow-medium);
+            transition: var(--transition);
+            opacity: 0;
+            visibility: hidden;
+            z-index: 1000;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-heavy);
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .main-wrapper {
+                padding-top: 100px;
+                padding-bottom: 40px;
+            }
+
+            .content-container {
+                padding: 2rem 1.5rem;
+                margin: 1rem;
+                border-radius: var(--border-radius-sm);
+            }
+
+            .page-title {
+                font-size: 2.2rem;
+                margin-bottom: 1rem;
+            }
+
+            .section-heading {
+                font-size: 1.5rem;
+                margin: 2rem 0 1rem 0;
+            }
+
+            .intro-text {
+                padding: 1.5rem;
+                font-size: 1.1rem;
+            }
+
+            .toc {
+                padding: 1.5rem;
+            }
+
+            .back-to-top {
+                width: 45px;
+                height: 45px;
+                bottom: 1.5rem;
+                right: 1.5rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .page-title {
+                font-size: 1.8rem;
+            }
+
+            .section-heading {
+                font-size: 1.3rem;
+            }
+
+            .content-container {
+                padding: 1.5rem 1rem;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            .navbar, .footer, .back-to-top, .toc {
+                display: none;
+            }
+
+            body {
+                background: white;
+                color: black;
+                font-size: 12pt;
+                line-height: 1.4;
+            }
+
+            .main-wrapper {
+                padding-top: 0;
+            }
+
+            .content-container {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+
+            .page-title, .section-heading {
+                color: black;
+            }
+
+            a::after {
+                display: none;
+            }
+        }
+
+        /* Animation */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .stagger-1 { animation-delay: 0.1s; }
+        .stagger-2 { animation-delay: 0.2s; }
+        .stagger-3 { animation-delay: 0.3s; }
+
+        /* Focus styles for accessibility */
+        *:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+
+        .nav-link:focus, .back-to-top:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(2, 86, 153, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="index.php" aria-label="GBA Health Social Care Limited Home">
+                <img src="assets/images/tt.png" alt="GBA Logo" width="40" height="40" class="rounded-circle me-2">
+                GBA Health Social Care Limited
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php#careers">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="content-container fade-in">
+                <h1 class="page-title">
+                    <i class="fas fa-user-shield" aria-hidden="true"></i>Privacy Policy
+                </h1>
+                
+                <div class="last-updated">
+                    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                    <strong>Last updated:</strong> September 2025
+                </div>
+
+                <!-- Table of Contents -->
+                <div class="toc fade-in stagger-1">
+                    <h4><i class="fas fa-list" aria-hidden="true"></i>Table of Contents</h4>
+                    <ul>
+                        <li><a href="#information-collect">Information We Collect</a></li>
+                        <li><a href="#how-we-use">How We Use Your Information</a></li>
+                        <li><a href="#sharing-info">Sharing of Information</a></li>
+                        <li><a href="#your-rights">Your Rights</a></li>
+                        <li><a href="#security">Security</a></li>
+                        <li><a href="#updates">Updates</a></li>
+                    </ul>
+                </div>
+
+                <div class="intro-text fade-in stagger-2">
+                    At <strong>GBA Health Social Care Limited</strong>, we value your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you interact with us.
+                </div>
+
+                <section id="information-collect" class="fade-in stagger-3">
+                    <h2 class="section-heading">1. Information We Collect</h2>
+                    <p>We collect various types of information to provide you with our comprehensive health and social care services:</p>
+                    <ul>
+                        <li><strong>Contact Information:</strong> Name, email address, phone number, and postal address</li>
+                        <li><strong>Professional Information:</strong> Details submitted through career application forms, including CVs and cover letters</li>
+                        <li><strong>Communication Data:</strong> Information from your inquiries, feedback, and correspondence with us</li>
+                        <li><strong>Technical Data:</strong> IP address, browser type, device information, and pages visited on our website</li>
+                        <li><strong>Usage Analytics:</strong> How you interact with our website and services to improve user experience</li>
+                    </ul>
+                </section>
+
+                <section id="how-we-use" class="fade-in">
+                    <h2 class="section-heading">2. How We Use Your Information</h2>
+                    <p>We use your personal information for legitimate business purposes, including:</p>
+                    <ul>
+                        <li><strong>Service Delivery:</strong> To provide our health and social care consulting services</li>
+                        <li><strong>Communication:</strong> To respond to your enquiries, provide customer support, and send important updates</li>
+                        <li><strong>Recruitment:</strong> To process job applications and evaluate candidates for employment opportunities</li>
+                        <li><strong>Service Improvement:</strong> To enhance our website functionality and service offerings</li>
+                        <li><strong>Legal Compliance:</strong> To fulfill our legal obligations and regulatory requirements in the healthcare sector</li>
+                        <li><strong>Marketing:</strong> To send relevant information about our services (only with your consent)</li>
+                    </ul>
+                </section>
+
+                <section id="sharing-info" class="fade-in">
+                    <h2 class="section-heading">3. Sharing of Information</h2>
+                    <p>We respect your privacy and do not sell, rent, or trade your personal information. We may share your data only in the following circumstances:</p>
+                    <ul>
+                        <li><strong>Service Providers:</strong> With trusted third-party vendors who help us deliver our services (under strict confidentiality agreements)</li>
+                        <li><strong>Legal Requirements:</strong> When required by law, court order, or government regulation</li>
+                        <li><strong>Business Protection:</strong> To protect our rights, property, or safety, or that of our clients and employees</li>
+                        <li><strong>Regulatory Bodies:</strong> With healthcare regulatory authorities as required for compliance purposes</li>
+                    </ul>
+                    <p>All third parties we work with are required to maintain the confidentiality and security of your personal information.</p>
+                </section>
+
+                <section id="your-rights" class="fade-in">
+                    <h2 class="section-heading">4. Your Rights</h2>
+                    <p>Under data protection laws, you have several important rights regarding your personal information:</p>
+                    <ul>
+                        <li><strong>Right of Access:</strong> Request a copy of the personal data we hold about you</li>
+                        <li><strong>Right to Rectification:</strong> Ask us to correct any inaccurate or incomplete information</li>
+                        <li><strong>Right to Erasure:</strong> Request deletion of your personal data in certain circumstances</li>
+                        <li><strong>Right to Restrict Processing:</strong> Ask us to limit how we use your information</li>
+                        <li><strong>Right to Data Portability:</strong> Request your data in a structured, machine-readable format</li>
+                        <li><strong>Right to Object:</strong> Object to our processing of your personal data for specific purposes</li>
+                        <li><strong>Right to Withdraw Consent:</strong> Remove your consent for marketing communications at any time</li>
+                    </ul>
+                    
+                    <div class="contact-card">
+                        <h4><i class="fas fa-envelope" aria-hidden="true"></i> Exercise Your Rights</h4>
+                        <p>To exercise any of these rights or if you have questions about our privacy practices, please contact us:</p>
+                        <a href="mailto:gbahealthsocialcareltd@gmail.com">
+                            <i class="fas fa-paper-plane" aria-hidden="true"></i>
+                            gbahealthsocialcareltd@gmail.com
+                        </a>
+                    </div>
+                </section>
+
+                <section id="security" class="fade-in">
+                    <h2 class="section-heading">5. Security Measures</h2>
+                    <p>We take the security of your personal data seriously and implement robust measures to protect it:</p>
+                    <ul>
+                        <li><strong>Technical Safeguards:</strong> Encryption, secure servers, and firewalls to protect against unauthorized access</li>
+                        <li><strong>Access Controls:</strong> Strict limitations on who can access your personal information within our organization</li>
+                        <li><strong>Staff Training:</strong> Regular training for all employees on data protection and privacy practices</li>
+                        <li><strong>Regular Audits:</strong> Periodic security assessments and updates to our protection measures</li>
+                        <li><strong>Incident Response:</strong> Established procedures to respond quickly to any potential data breaches</li>
+                    </ul>
+                    <p>While we implement industry-standard security measures, no method of transmission over the internet is 100% secure. We continuously work to improve our security practices to protect your information.</p>
+                </section>
+
+                <section id="updates" class="fade-in">
+                    <h2 class="section-heading">6. Policy Updates</h2>
+                    <p>We may update this Privacy Policy from time to time to reflect changes in our practices, legal requirements, or business operations. When we make changes:</p>
+                    <ul>
+                        <li><strong>Notification:</strong> We will post the updated policy on this page with a new "Last updated" date</li>
+                        <li><strong>Significant Changes:</strong> For major changes, we may notify you directly via email or prominent website notices</li>
+                        <li><strong>Continued Use:</strong> Your continued use of our services after any changes indicates your acceptance of the updated policy</li>
+                        <li><strong>Review Regularly:</strong> We encourage you to review this policy periodically to stay informed about how we protect your information</li>
+                    </ul>
+                </section>
+
+                <div class="contact-card fade-in">
+                    <h4><i class="fas fa-question-circle" aria-hidden="true"></i> Questions or Concerns?</h4>
+                    <p>If you have any questions about this Privacy Policy or our data handling practices, we're here to help.</p>
+                    <a href="mailto:gbahealthsocialcareltd@gmail.com">
+                        <i class="fas fa-headset" aria-hidden="true"></i>
+                        Contact Our Privacy Team
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 GBA Health Social Care Limited. All rights reserved.</p>
+                <div>
+                    <a href="privacy.html" aria-current="page">Privacy Policy</a>
+                    <a href="terms.html">Terms & Conditions</a>
+                    <a href="index.php">Back to Homepage</a>
+                    <a href="cookies.html">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Performance optimization - defer non-critical operations

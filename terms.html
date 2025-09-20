@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Terms & Conditions for GBA Health Social Care Limited - Understand our service terms and legal agreements">
+    <title>Terms & Conditions | GBA Health Social Care Limited</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #025699;
+            --primary-light: #4a90d9;
+            --primary-dark: #013d73;
+            --secondary-color: #f8f9fa;
+            --accent-color: #28a745;
+            --text-primary: #2c3e50;
+            --text-secondary: #6c757d;
+            --text-light: #adb5bd;
+            --border-color: #e9ecef;
+            --shadow-light: 0 2px 15px rgba(0,0,0,0.08);
+            --shadow-medium: 0 8px 30px rgba(0,0,0,0.12);
+            --shadow-heavy: 0 15px 50px rgba(0,0,0,0.15);
+            --transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            --border-radius: 16px;
+            --border-radius-sm: 12px;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            min-height: 100vh;
+            scroll-behavior: smooth;
+        }
+
+        /* Enhanced scrollbar */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--primary-color);
+            border-radius: 4px;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: var(--primary-dark);
+        }
+
+        /* Enhanced Navbar */
+        .navbar {
+            background: rgba(255, 255, 255, 0.95) !important;
+            backdrop-filter: blur(15px);
+            -webkit-backdrop-filter: blur(15px);
+            box-shadow: var(--shadow-light);
+            padding: 1rem 0;
+            transition: var(--transition);
+            border-bottom: 1px solid rgba(255,255,255,0.1);
+        }
+
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary-color) !important;
+            font-size: 1.5rem;
+            transition: var(--transition);
+        }
+
+        .navbar-brand:hover {
+            transform: scale(1.02);
+        }
+
+        .navbar-brand img {
+            transition: var(--transition);
+            box-shadow: var(--shadow-light);
+        }
+
+        .navbar-brand:hover img {
+            transform: scale(1.1);
+            box-shadow: var(--shadow-medium);
+        }
+
+        .nav-link {
+            color: var(--text-primary) !important;
+            font-weight: 500;
+            margin: 0 0.5rem;
+            position: relative;
+            transition: var(--transition);
+            padding: 0.5rem 1rem !important;
+            border-radius: var(--border-radius-sm);
+        }
+
+        .nav-link:hover {
+            color: var(--primary-color) !important;
+            background: rgba(2, 86, 153, 0.08);
+            transform: translateY(-1px);
+        }
+
+        .nav-link::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: 0;
+            left: 50%;
+            background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+            transition: var(--transition);
+            transform: translateX(-50%);
+            border-radius: 1px;
+        }
+
+        .nav-link:hover::after {
+            width: 70%;
+        }
+
+        /* Main Content Wrapper */
+        .main-wrapper {
+            min-height: calc(100vh - 100px);
+            padding-top: 120px;
+            padding-bottom: 60px;
+        }
+
+        /* Content Container */
+        .content-container {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--shadow-medium);
+            padding: 3rem;
+            margin: 2rem auto;
+            max-width: 900px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .content-container::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 6px;
+            background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+        }
+
+        /* Typography */
+        .page-title {
+            font-size: 3rem;
+            font-weight: 800;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            line-height: 1.2;
+            letter-spacing: -0.02em;
+            position: relative;
+        }
+
+        .page-title i {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-right: 1rem;
+        }
+
+        .last-updated {
+            display: inline-flex;
+            align-items: center;
+            background: linear-gradient(135deg, rgba(2, 86, 153, 0.1), rgba(74, 144, 217, 0.15));
+            padding: 0.75rem 1.5rem;
+            border-radius: 50px;
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 2rem;
+            font-size: 0.95rem;
+            border: 1px solid rgba(2, 86, 153, 0.2);
+        }
+
+        .last-updated i {
+            margin-right: 0.5rem;
+            font-size: 1rem;
+        }
+
+        .intro-text {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+            margin-bottom: 3rem;
+            padding: 2rem;
+            background: linear-gradient(135deg, rgba(2, 86, 153, 0.03), rgba(74, 144, 217, 0.05));
+            border-radius: var(--border-radius-sm);
+            border-left: 4px solid var(--primary-color);
+            position: relative;
+        }
+
+        .intro-text::before {
+            content: '⚖';
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: 2rem;
+            opacity: 0.3;
+        }
+
+        .section-heading {
+            font-size: 1.8rem;
+            font-weight: 700;
+            color: var(--primary-color);
+            margin: 3rem 0 1.5rem 0;
+            position: relative;
+            padding-left: 2rem;
+            counter-increment: section-counter;
+        }
+
+        .section-heading::before {
+            content: counter(section-counter);
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 35px;
+            height: 35px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1rem;
+            font-weight: 700;
+            box-shadow: var(--shadow-light);
+        }
+
+        .section-heading:first-of-type {
+            margin-top: 2rem;
+        }
+
+        /* Reset counter */
+        .content-container {
+            counter-reset: section-counter;
+        }
+
+        /* Enhanced Paragraphs */
+        p {
+            margin-bottom: 1.5rem;
+            line-height: 1.8;
+            color: var(--text-secondary);
+        }
+
+        p strong {
+            color: var(--text-primary);
+            font-weight: 600;
+        }
+
+        /* Enhanced Links */
+        a {
+            color: var(--primary-color);
+            text-decoration: none;
+            font-weight: 500;
+            position: relative;
+            transition: var(--transition);
+        }
+
+        a:hover {
+            color: var(--primary-dark);
+            text-decoration: none;
+        }
+
+        a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -2px;
+            left: 0;
+            background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+            transition: var(--transition);
+        }
+
+        a:hover::after {
+            width: 100%;
+        }
+
+        /* Legal Section Styling */
+        .legal-section {
+            margin-bottom: 2.5rem;
+            padding: 2rem;
+            background: rgba(248, 249, 250, 0.5);
+            border-radius: var(--border-radius-sm);
+            border-left: 4px solid var(--primary-light);
+            position: relative;
+            transition: var(--transition);
+        }
+
+        .legal-section:hover {
+            background: rgba(2, 86, 153, 0.03);
+            border-left-color: var(--primary-color);
+        }
+
+        /* Contact Section */
+        .contact-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: white;
+            padding: 2.5rem;
+            border-radius: var(--border-radius-sm);
+            margin: 3rem 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .contact-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            right: 0;
+            width: 150px;
+            height: 150px;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            border-radius: 50%;
+            transform: translate(50%, -50%);
+        }
+
+        .contact-section h3 {
+            margin-bottom: 1.5rem;
+            font-weight: 700;
+            position: relative;
+            z-index: 2;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 2;
+            transition: var(--transition);
+        }
+
+        .contact-item:hover {
+            transform: translateX(5px);
+        }
+
+        .contact-item i {
+            width: 40px;
+            height: 40px;
+            background: rgba(255,255,255,0.2);
+            border-radius: var(--border-radius-sm);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 1rem;
+            font-size: 1.1rem;
+            backdrop-filter: blur(10px);
+            transition: var(--transition);
+        }
+
+        .contact-item:hover i {
+            background: rgba(255,255,255,0.3);
+            transform: scale(1.1);
+        }
+
+        .contact-item a {
+            color: white;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .contact-item a:hover {
+            color: rgba(255,255,255,0.9);
+        }
+
+        .contact-item a::after {
+            display: none;
+        }
+
+        /* Important Notice Box */
+        .welcome-notice {
+            background: linear-gradient(135deg, rgba(40, 167, 69, 0.1), rgba(40, 167, 69, 0.2));
+            border: 2px solid rgba(40, 167, 69, 0.3);
+            border-radius: var(--border-radius-sm);
+            padding: 2rem;
+            margin: 2rem 0;
+            position: relative;
+        }
+
+        .welcome-notice::before {
+            content: '✓';
+            position: absolute;
+            top: 1rem;
+            left: 1rem;
+            font-size: 2rem;
+            color: #28a745;
+            font-weight: bold;
+        }
+
+        .welcome-notice p {
+            color: #155724;
+            margin-bottom: 0;
+            padding-left: 3rem;
+            font-weight: 500;
+        }
+
+        /* Enhanced Footer */
+        .footer {
+            background: linear-gradient(135deg, var(--text-primary) 0%, #1a252f 100%);
+            color: white;
+            padding: 3rem 0 1.5rem;
+            position: relative;
+            overflow: hidden;
+            margin-top: 4rem;
+        }
+
+        .footer::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 1px;
+            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent);
+        }
+
+        .footer-content {
+            text-align: center;
+            position: relative;
+            z-index: 2;
+        }
+
+        .footer p {
+            margin-bottom: 1rem;
+            color: var(--text-light);
+            line-height: 1.8;
+        }
+
+        .footer a {
+            color: var(--primary-light);
+            font-weight: 500;
+            margin: 0 0.5rem;
+            padding: 0.5rem 1rem;
+            border-radius: var(--border-radius-sm);
+            transition: var(--transition);
+        }
+
+        .footer a:hover {
+            background: rgba(74, 144, 217, 0.1);
+            color: white;
+            transform: translateY(-2px);
+        }
+
+        .footer a::after {
+            display: none;
+        }
+
+        /* Back to Top Button */
+        .back-to-top {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(135deg, var(--primary-color), var(--primary-light));
+            color: white;
+            border: none;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.2rem;
+            box-shadow: var(--shadow-medium);
+            transition: var(--transition);
+            opacity: 0;
+            visibility: hidden;
+            z-index: 1000;
+        }
+
+        .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .back-to-top:hover {
+            transform: translateY(-3px);
+            box-shadow: var(--shadow-heavy);
+            color: white;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .main-wrapper {
+                padding-top: 100px;
+                padding-bottom: 40px;
+            }
+
+            .content-container {
+                padding: 2rem 1.5rem;
+                margin: 1rem;
+                border-radius: var(--border-radius-sm);
+            }
+
+            .page-title {
+                font-size: 2.2rem;
+                margin-bottom: 1rem;
+            }
+
+            .section-heading {
+                font-size: 1.5rem;
+                margin: 2rem 0 1rem 0;
+            }
+
+            .intro-text {
+                padding: 1.5rem;
+                font-size: 1.1rem;
+            }
+
+            .legal-section {
+                padding: 1.5rem;
+            }
+
+            .contact-section {
+                padding: 2rem 1.5rem;
+            }
+
+            .back-to-top {
+                width: 45px;
+                height: 45px;
+                bottom: 1.5rem;
+                right: 1.5rem;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .page-title {
+                font-size: 1.8rem;
+            }
+
+            .section-heading {
+                font-size: 1.3rem;
+            }
+
+            .content-container {
+                padding: 1.5rem 1rem;
+            }
+        }
+
+        /* Print Styles */
+        @media print {
+            .navbar, .footer, .back-to-top {
+                display: none;
+            }
+
+            body {
+                background: white;
+                color: black;
+                font-size: 12pt;
+                line-height: 1.4;
+            }
+
+            .main-wrapper {
+                padding-top: 0;
+            }
+
+            .content-container {
+                box-shadow: none;
+                border: 1px solid #ddd;
+            }
+
+            .page-title, .section-heading {
+                color: black;
+            }
+
+            a::after {
+                display: none;
+            }
+        }
+
+        /* Animation */
+        .fade-in {
+            opacity: 0;
+            transform: translateY(30px);
+            animation: fadeInUp 0.6s ease forwards;
+        }
+
+        @keyframes fadeInUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .stagger-1 { animation-delay: 0.1s; }
+        .stagger-2 { animation-delay: 0.2s; }
+        .stagger-3 { animation-delay: 0.3s; }
+        .stagger-4 { animation-delay: 0.4s; }
+
+        /* Focus styles for accessibility */
+        *:focus {
+            outline: 2px solid var(--primary-color);
+            outline-offset: 2px;
+        }
+
+        .nav-link:focus, .back-to-top:focus {
+            outline: none;
+            box-shadow: 0 0 0 3px rgba(2, 86, 153, 0.3);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top" role="navigation">
+        <div class="container">
+            <a class="navbar-brand" href="index.php" aria-label="GBA Health Social Care Limited Home">
+                <img src="tt.jpeg" alt="GBA Logo" width="40" height="40" class="rounded-circle me-2">
+                GBA Health Social Care Limited
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.php">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php#services">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php#careers">Careers</a></li>
+                    <li class="nav-item"><a class="nav-link" href="index.php#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="main-wrapper">
+        <div class="container">
+            <div class="content-container fade-in">
+                <h1 class="page-title">
+                    <i class="fas fa-file-contract" aria-hidden="true"></i>Terms &amp; Conditions
+                </h1>
+                
+                <div class="last-updated">
+                    <i class="fas fa-calendar-alt" aria-hidden="true"></i>
+                    <strong>Last updated:</strong> September 2025
+                </div>
+
+                <div class="welcome-notice fade-in stagger-1">
+                    <p>Welcome to <strong>GBA Health Social Care Limited</strong>. By accessing and using our website and services, you agree to comply with the following terms and conditions.</p>
+                </div>
+
+                <div class="legal-section fade-in stagger-2">
+                    <h2 class="section-heading">Use of Website</h2>
+                    <p>You agree to use this website for lawful purposes only and not engage in any activity that may disrupt or interfere with its operation. This includes but is not limited to:</p>
+                    <ul style="list-style: none; padding-left: 0; margin-top: 1rem;">
+                        <li style="padding: 0.5rem 0; margin-left: 1rem; position: relative;">
+                            <i class="fas fa-check-circle" style="color: var(--primary-color); margin-right: 0.5rem;"></i>
+                            Using the website in accordance with all applicable laws and regulations
+                        </li>
+                        <li style="padding: 0.5rem 0; margin-left: 1rem; position: relative;">
+                            <i class="fas fa-times-circle" style="color: #dc3545; margin-right: 0.5rem;"></i>
+                            Not attempting to gain unauthorized access to our systems
+                        </li>
+                        <li style="padding: 0.5rem 0; margin-left: 1rem; position: relative;">
+                            <i class="fas fa-times-circle" style="color: #dc3545; margin-right: 0.5rem;"></i>
+                            Not distributing harmful, offensive, or illegal content
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="legal-section fade-in stagger-3">
+                    <h2 class="section-heading">Services</h2>
+                    <p>All services provided by GBA Health Social Care Limited are professional consulting services in the healthcare and social care sector. Our services are subject to the terms outlined in contracts or agreements specific to each service engagement.</p>
+                    <p>We provide expert guidance in compliance, leadership development, HR management, and quality service delivery to ensure healthcare providers meet the highest standards.</p>
+                </div>
+
+                <div class="legal-section fade-in stagger-4">
+                    <h2 class="section-heading">Intellectual Property</h2>
+                    <p>All content, logos, materials, and intellectual property on this website are the property of GBA Health Social Care Limited unless otherwise stated. This includes:</p>
+                    <ul style="list-style: none; padding-left: 0; margin-top: 1rem;">
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• Website content and design elements</li>
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• Training materials and methodologies</li>
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• Company branding and logos</li>
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• Proprietary business processes</li>
+                    </ul>
+                    <p>Unauthorized reproduction or distribution is prohibited and may result in legal action.</p>
+                </div>
+
+                <div class="legal-section fade-in">
+                    <h2 class="section-heading">Limitation of Liability</h2>
+                    <p>We strive to provide accurate and up-to-date information and professional services. However, GBA Health Social Care Limited's liability is limited in the following ways:</p>
+                    <ul style="list-style: none; padding-left: 0; margin-top: 1rem;">
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• We are not responsible for any errors, omissions, or damages arising from the use of this website or our services</li>
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• Information provided is for guidance and should not replace professional legal advice</li>
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• Our maximum liability shall not exceed the fees paid for specific services</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section fade-in">
+                    <h2 class="section-heading">External Links</h2>
+                    <p>Our website may contain links to external sites for your convenience and reference. Please note that:</p>
+                    <ul style="list-style: none; padding-left: 0; margin-top: 1rem;">
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• We are not responsible for the content, security, or practices of these third-party websites</li>
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• External links do not constitute endorsement of the linked content</li>
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• You access external sites at your own risk</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section fade-in">
+                    <h2 class="section-heading">Privacy</h2>
+                    <p>Use of our website is also governed by our <a href="privacy.html">Privacy Policy</a>. Please review it to understand how we collect, use, and protect your personal information in accordance with applicable data protection laws.</p>
+                </div>
+
+                <div class="legal-section fade-in">
+                    <h2 class="section-heading">Changes to Terms</h2>
+                    <p>We may update these Terms & Conditions from time to time to reflect changes in our services, legal requirements, or business practices. When we make changes:</p>
+                    <ul style="list-style: none; padding-left: 0; margin-top: 1rem;">
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• We will post the updated terms on this page</li>
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• The "Last updated" date will be revised</li>
+                        <li style="padding: 0.5rem 0; margin-left: 1rem;">• Continued use indicates acceptance of updated terms</li>
+                    </ul>
+                </div>
+
+                <div class="legal-section fade-in">
+                    <h2 class="section-heading">Governing Law</h2>
+                    <p>These Terms & Conditions are governed by and construed in accordance with the laws of the United Kingdom. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts of England and Wales.</p>
+                </div>
+
+                <div class="contact-section fade-in">
+                    <h3><i class="fas fa-envelope" aria-hidden="true"></i> Contact Us</h3>
+                    <p>If you have any questions about these Terms & Conditions, please contact us:</p>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-envelope" aria-hidden="true"></i>
+                        <div>
+                            <strong>Email:</strong><br>
+                            <a href="mailto:gbahealthsocialcareltd@gmail.com">gbahealthsocialcareltd@gmail.com</a>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <i class="fas fa-phone" aria-hidden="true"></i>
+                        <div>
+                            <strong>Phone:</strong><br>
+                            <a href="tel:+447830733387">+447830733387</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop" aria-label="Back to top">
+        <i class="fas fa-chevron-up" aria-hidden="true"></i>
+    </button>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 GBA Health Social Care Limited. All rights reserved.</p>
+                <div>
+                    <a href="index.php">Home</a>
+                    <a href="privacy.html">Privacy Policy</a>
+                    <a href="terms.html" aria-current="page">Terms & Conditions</a>
+                    <a href="cookies.html">Cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script>
+        // Back to top functionality
+        const backToTopBtn = document.getElementById('backToTop');
+        
+        window.addEventListener('scroll', function() {
+            if (window.pageYOffset > 300) {
+                backToTopBtn.classList.add('visible');
+            } else {
+                backToTopBtn.classList.remove('visible');
+            }
+        });
+
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Enhanced navbar background on scroll
+        const navbar = document.querySelector('.navbar');
+        let lastScrollTop = 0;
+        
+        window.addEventListener('scroll', function() {
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            
+            if (scrollTop > 50) {
+                navbar.style.background = 'rgba(255, 255, 255, 0.98)';
+                navbar.style.boxShadow = '0 8px 30px rgba(0,0,0,0.12)';
+            } else {
+                navbar.style.background = 'rgba(255, 255, 255, 0.95)';
+                navbar.style.boxShadow = '0 2px 15px rgba(0,0,0,0.08)';
+            }
+            
+            lastScrollTop = scrollTop;
+        });
+
+        // Animation observer
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.animationPlayState = 'running';
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.fade-in').forEach(el => {
+            el.style.animationPlayState = 'paused';
+            observer.observe(el);
+        });
+
+        // Mobile menu behavior
+        const navbarToggler = document.querySelector('.navbar-toggler');
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+
+        navbarToggler?.addEventListener('click', function() {
+            setTimeout(() => {
+                if (navbarCollapse.classList.contains('show')) {
+                    document.body.style.overflow = 'hidden';
+                } else {
+                    document.body.style.overflow = 'auto';
+                }
+            }, 100);
+        });
+
+        // Close mobile menu when clicking on nav links
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                if (navbarCollapse.classList.contains('show')) {
+                    navbarToggler.click();
+                    document.body.style.overflow = 'auto';
+                }
+            });
+        });
+
+        // Keyboard accessibility
+        document.addEventListener('keydown', function(e) {
+            // Escape key to close mobile menu
+            if (e.key === 'Escape' && navbarCollapse.classList.contains('show')) {
+                navbarToggler.click();
+            }
+        });
+
+        // Print functionality
+        function printPage() {
+            window.print();
+        }
+
+        // Add print button functionality if needed
+        document.addEventListener('keydown', function(e) {
+            if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+                e.preventDefault();
+                printPage();
+            }
+        });
+
+        // Enhanced focus management for accessibility
+        function trapFocus(element) {
+            const focusableElements = element.querySelectorAll(
+                'button, [href], input, select, textarea, [tabindex]:not([tabindex="-1"])'
+            );
+            const firstFocusableElement = focusableElements[0];
+            const lastFocusableElement = focusableElements[focusableElements.length - 1];
+
+            element.addEventListener('keydown', function(e) {
+                if (e.key === 'Tab') {
+                    if (e.shiftKey) {
+                        if (document.activeElement === firstFocusableElement) {
+                            lastFocusableElement.focus();
+                            e.preventDefault();
+                        }
+                    } else {
+                        if (document.activeElement === lastFocusableElement) {
+                            firstFocusableElement.focus();
+                            e.preventDefault();
+                        }
+                    }
+                }
+            });
+        }
+
+        // Initialize focus trapping for mobile menu
+        if (navbarCollapse) {
+            trapFocus(navbarCollapse);
+        }
+
+        // Reading progress indicator
+        function updateReadingProgress() {
+            const scrollTop = window.pageYOffset;
+            const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+            const scrollPercent = (scrollTop / docHeight) * 100;
+            
+            // Create progress bar if it doesn't exist
+            let progressBar = document.querySelector('.reading-progress');
+            if (!progressBar) {
+                progressBar = document.createElement('div');
+                progressBar.className = 'reading-progress';
+                progressBar.style.cssText = `
+                    position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: ${scrollPercent}%;
+                    height: 3px;
+                    background: linear-gradient(90deg, var(--primary-color), var(--primary-light));
+                    z-index: 9999;
+                    transition: width 0.3s ease;
+                `;
+                document.body.appendChild(progressBar);
+            } else {
+                progressBar.style.width = scrollPercent + '%';
+            }
+        }
+
+        // Enable reading progress on scroll
+        window.addEventListener('scroll', updateReadingProgress);
+
+        // Initialize on page load
+        updateReadingProgress();
+
+        // Smooth section transitions with visual feedback
+        const legalSections = document.querySelectorAll('.legal-section');
+        
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.transform = 'translateX(0)';
+                    entry.target.style.opacity = '1';
+                }
+            });
+        }, {
+            threshold: 0.3,
+            rootMargin: '0px 0px -100px 0px'
+        });
+
+        legalSections.forEach(section => {
+            section.style.transform = 'translateX(-20px)';
+            section.style.opacity = '0.8';
+            section.style.transition = 'all 0.6s ease';
+            sectionObserver.observe(section);
+        });
+
+        // Enhanced hover effects for interactive elements
+        document.querySelectorAll('a, .contact-item, .legal-section').forEach(element => {
+            element.addEventListener('mouseenter', function() {
+                this.style.transition = 'all 0.3s ease';
+            });
+        });
+
+        // Accessibility: Announce section changes for screen readers
+        const sections = document.querySelectorAll('.legal-section');
+        sections.forEach((section, index) => {
+            section.setAttribute('aria-label', `Section ${index + 1}: ${section.querySelector('.section-heading').textContent}`);
+        });
+    </script>
+</body>
+</html>
