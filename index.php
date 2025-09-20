@@ -1,12 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GBA Health Social Care Limited</title>
+    <!-- Meta Tags for SEO -->
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="GBA Health Social Care Limited empowers healthcare organizations with compliance support, professional training, HR management, and quality service delivery.">
+<meta name="keywords" content="GBA Health Social Care, healthcare consultancy, care planning, HR management, professional training, CQC compliance, UK healthcare">
+<meta name="author" content="GBA Health Social Care Limited">
+<meta name="robots" content="index, follow">
+
+<!-- Open Graph / Social Media -->
+<meta property="og:title" content="GBA Health Social Care Limited">
+<meta property="og:description" content="Improving health and care industry standards with expert guidance and training.">
+<meta property="og:image" content="assets/images/tt.png">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://gbahealthsocialcareltd.com">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="GBA Health Social Care Limited">
+<meta name="twitter:description" content="Empowering healthcare organizations with professional guidance, compliance support, and quality service delivery.">
+<meta name="twitter:image" content="assets/images/tt.png">
+
+<title>GBA Health Social Care Limited</title>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "GBA Health Social Care Limited",
+  "url": "https://gbahealthsocialcareltd.com",
+  "logo": "https://gbahealthsocialcareltd.com/assets/images/tt.png",
+  "image": "https://gbahealthsocialcareltd.com/assets/images/tt.png",
+  "description": "GBA Health Social Care Limited provides expert healthcare consultancy, compliance support, professional training, HR management, and quality service delivery in the UK healthcare sector.",
+  "foundingDate": "2025-01-01",
+  "founders": [
+    {
+      "@type": "Person",
+      "name": "Godfrey Arumbor"
+    }
+  ],
+  "contactPoint": [
+    {
+      "@type": "ContactPoint",
+      "telephone": "+447830733387",
+      "contactType": "Customer Service",
+      "areaServed": "GB",
+      "availableLanguage": ["English"]
+    },
+    {
+      "@type": "ContactPoint",
+      "telephone": "+447830733387",
+      "contactType": "Sales",
+      "areaServed": "GB",
+      "availableLanguage": ["English"]
+    },
+    {
+      "@type": "ContactPoint",
+      "email": "gbahealthsocialcareltd@gmail.com",
+      "contactType": "General Inquiry",
+      "areaServed": "GB",
+      "availableLanguage": ["English"]
+    }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "Block 3, 9 Aveley Walk",
+    "addressLocality": "Reading",
+    "addressRegion": "Berkshire",
+    "postalCode": "RG2 0AP",
+    "addressCountry": "GB"
+  },
+  "sameAs": [
+    "https://www.facebook.com/gbahealthsocialcareltd",
+    "https://twitter.com/gbahealthsocialcareltd",
+    "https://www.linkedin.com/company/gbahealthsocialcareltd",
+    "https://www.tiktok.com/@gbahealthsocialcareltd"
+  ],
+  "serviceType": [
+    "Healthcare consultancy",
+    "Care planning",
+    "HR management",
+    "Professional training",
+    "CQC compliance support"
+  ],
+  "areaServed": {
+    "@type": "Country",
+    "name": "United Kingdom"
+  }
+}
+</script>
+
+
     <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+
     <style>
         :root {
             --primary-color: #025699;
